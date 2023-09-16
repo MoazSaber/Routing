@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  background-color: #2c3e50;
+  color: white !important;
+  z-index: 88888;
+}
+
+.navbar-nav .nav-link.active{
+  background-color: #1abc9c;
+  border-radius: 10px;
+}
+
+.navbar li{
+  margin-right: 20px;
+}
+
+#About-content{
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1abc9c;
+}
+#Port-content{
+  padding-top: 120px;
+}
+#Port-content .row .col-md-4 .layer{
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+
+#Port-content .col-md-4:hover .layer{
+  opacity: 0.7;
+  border-radius: 8px;
+}
+
+#Contact-content{
+  padding-top: 80px;
+}
+
+#footer{
+  background-color: #2c3e50;
+}
+#copy-right{
+  background-color: #1a252f;
+}
+
+.star-box div{
+
+  height: 5px;
+  width: 40%;
+  font-size: 30px;
+  background-color: cadetblue;
+}
+
+#social-icons i{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
